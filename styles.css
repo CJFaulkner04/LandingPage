@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #1F2937;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 75px;
+}
+nav h1{
+    font-size: 24px;
+}
+nav ul li{
+    color: #E5E7EB;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.headsection{
+    width: 70%;
+    height: 212px;
+    margin: auto;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+}
+div{
+    width: 47%;
+}
+.hero{
+    font-size: 48px;
+    font-style: bold;
+    margin-bottom: 0;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 110px;
+    height:30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #3882F6;
+}
+.box{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    background-color: #94969b;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.picbox{
+    width:20vh;
+}
+.pictures{
+    width: 100%;
+    height: 20vh;
+    border: 4px solid #3382F6;
+    border-radius: 10px;
+}
+.quote{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+
+}
+.quote p{
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.action{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3382F6;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.action button{
+    color: white;
+    background-color: #3882F6;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 110px;
+    height:30px;
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid white;
+}
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    margin:0;
+    color: white;
+}
